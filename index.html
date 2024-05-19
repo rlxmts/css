@@ -1,17 +1,46 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
     <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Praticando CSS</title>
 </head>
 <body>    
+
+    <!-- Slider main container -->
+    <div class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide"><img src="./img/arvore.jpg" alt="" class="img-slider"></div>
+        <div class="swiper-slide"><img src="./img/barco.jpg" alt="" class="img-slider"></div>
+        <div class="swiper-slide"><img src="./img/silhoeta.jpg" alt="" class="img-slider"></div>
+        ...
+        </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+    
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+    
+        <!-- If we need scrollbar -->
+        <div class="swiper-scrollbar"></div>
+    </div>
+
+
     <div class="slider">
         <div class="slider-texto">
             <p class="texto">Matheus Cruz, Desenvolvedor Front end.</p>
             <p class="texto">Matheus Cruz, Desenvolvedor Front end</p>
         </div>
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="index.js"></script>
 </body>
 </html>
