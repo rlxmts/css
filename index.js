@@ -4,7 +4,7 @@ const swiper = new Swiper('.swiper', {
     loop: true,
 
     autoplay: {
-        delay: 5000,
+        delay: 2000,
         disableOnInteraction: false,
       },
 
@@ -21,3 +21,5 @@ const swiper = new Swiper('.swiper', {
       el: '.swiper-scrollbar',
     },
   });
+
+  
